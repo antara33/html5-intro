@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Something</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home Page</title>
+<link rel="stylesheet" href="styles/nav.css">
+<link rel="stylesheet" href="styles/blogs.css">
+<style>
+.choose-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: #f5f5f5;
+}
+
+.choose-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+}
+
+.card {
+  display: inline-block;
+  text-decoration: none;
+  background: linear-gradient(135deg, #6c48c9, #a17fe0);
+  color: white;
+  padding: 20px 30px;
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+</style>
 </head>
 <body>
-    
+
+<section class="choose-section">
+  <h2>Choose Any One To View</h2>
+  <div class="cards-container">
+    <a href="blogs.html" class="card">Blogs</a>
+    <a href="centre.html" class="card">Centre</a>
+    <a href="flex.html" class="card">Flex</a>
+    <a href="table.html" class="card">Table</a>
+    <a href="form.html" class="card">Form</a>
+    <a href="auto.html" class="card">Margin Auto</a>
+    <a href="card.html" class="card">Cards</a>
+  </div>
+</section>
+
 </body>
 </html>
