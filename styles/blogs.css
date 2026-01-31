@@ -1,0 +1,29 @@
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 15px ;
+}
+nav li :hover{
+background-color: aqua;
+}
+nav li a{
+    text-decoration: none;
+    
+}
+footer{
+    text-align: center;
+}
+figure{
+    display: flex;
+    margin-left: 0%;
+    gap: 20px;
+   text-decoration: solid;
+}
+.bottom-header {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color:none;
+  color: white;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.2);
+}
